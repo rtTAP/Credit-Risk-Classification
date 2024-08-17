@@ -3,18 +3,42 @@
 ## Overview of the Analysis
 
 * Purpose of the analysis:
-    * The purpose of this analysis is to predict the likelihood of a loan being high-risk (defaulting) using a logistic regression model. The dataset contains information on various loans, and the model aims to classify these loans as either healthy (0) or high-risk (1).
-
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithm).
+    * To predict the likelihood of a loan being high-risk (defaulting), using a logistic regression model of machine learning. The dataset contains information on various loans, and the model aims to classify these loans as either healthy (0) or high-risk (1).
 
 ## Results
+** Confusion Matrix **
+![]()
+- True Negatives (TN): 14,924 (healthy loans correctly classified)
+- False Positives (FP): 77 (healthy loans incorrectly classified as high-risk)
+- False Negatives (FN): 31 (high-risk loans incorrectly classified as healthy)
+- True Positives (TP): 476 (high-risk loans correctly classified)
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+** Classification Report **
+![]()
+- Precision:
+  - Class 0 (healthy loan): 1.00
+  - Class 1 (high-risk loan): 0.86
+- Recall:
+  - Class 0 (healthy loan): 0.99
+  - Class 1 (high-risk loan): 0.94
+- F1-Score:
+  - Class 0 (healthy loan): 1.00
+  - Class 1 (high-risk loan): 0.90
+- Support:
+  - Class 0 (healthy loan): 15,001
+  - Class 1 (high-risk loan): 507
+* Overall Metrics
+  - Accuracy: 0.99
+  - Macro Average:
+   - Precision: 0.93
+   - Recall: 0.97
+   - F1-Score: 0.95
+  - Weighted Average:
+   - Precision: 0.99
+   - Recall: 0.99
+   - F1-Score: 0.99
+* Interpretation *
+  
 
 ## Summary
 
