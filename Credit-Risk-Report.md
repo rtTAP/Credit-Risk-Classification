@@ -40,7 +40,7 @@
       - F1-Score: 0.99
      
 **Interpretation**
-  
+ -Class 0 (healthy loan): The model performs exceptionally well, with a precision, recall, and F1-score of 1.00, indicating that it almost perfectly identifies healthy loans. 
 
 ## Summary
 
