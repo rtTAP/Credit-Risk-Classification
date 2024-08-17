@@ -6,14 +6,14 @@
     * To predict the likelihood of a loan being high-risk (defaulting), using a logistic regression model of machine learning. The dataset contains information on various loans, and the model aims to classify these loans as either healthy (0) or high-risk (1).
 
 ## Results
-** Confusion Matrix **
+**Confusion Matrix**
 ![]()
 - True Negatives (TN): 14,924 (healthy loans correctly classified)
 - False Positives (FP): 77 (healthy loans incorrectly classified as high-risk)
 - False Negatives (FN): 31 (high-risk loans incorrectly classified as healthy)
 - True Positives (TP): 476 (high-risk loans correctly classified)
 
-** Classification Report **
+**Classification Report**
 ![]()
 - Precision:
   - Class 0 (healthy loan): 1.00
@@ -27,7 +27,7 @@
 - Support:
   - Class 0 (healthy loan): 15,001
   - Class 1 (high-risk loan): 507
-* Overall Metrics
+*Overall Metrics*
   - Accuracy: 0.99
   - Macro Average:
    - Precision: 0.93
@@ -37,7 +37,7 @@
    - Precision: 0.99
    - Recall: 0.99
    - F1-Score: 0.99
-* Interpretation *
+*Interpretation*
   
 
 ## Summary
