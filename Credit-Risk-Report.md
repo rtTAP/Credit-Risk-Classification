@@ -27,7 +27,8 @@
 - Support:
   - Class 0 (healthy loan): 15,001
   - Class 1 (high-risk loan): 507
-*Overall Metrics*
+    
+**Overall Metrics**
   - Accuracy: 0.99
   - Macro Average:
    - Precision: 0.93
@@ -37,7 +38,7 @@
    - Precision: 0.99
    - Recall: 0.99
    - F1-Score: 0.99
-*Interpretation*
+**Interpretation**
   
 
 ## Summary
