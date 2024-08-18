@@ -8,6 +8,7 @@
 
 ## Results
 **Confusion Matrix**
+
  ![](Images/CR_Confusion_Matrix.png)
 - True Negatives (TN): 14,924 (healthy loans correctly classified)
 - False Positives (FP): 77 (healthy loans incorrectly classified as high-risk)
@@ -15,6 +16,7 @@
 - True Positives (TP): 476 (high-risk loans correctly classified)
 
 **Classification Report**
+
   ![](Images/CR_Classification_Report.jpeg)
 - Precision:
   - Class 0 (healthy loan): 1.00
