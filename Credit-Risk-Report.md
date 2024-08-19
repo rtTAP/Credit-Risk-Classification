@@ -48,6 +48,6 @@
 
 ## Summary
 
-This logistic regression model has excellent performance in predicting healthy and high-risk loans. No scaling was required for this model as the data featrues area already on a similar scale and align with the models purpose. There was also, no significant impact to the models performance. Scaling should be carefully considered in logistic regression models where coefficient interpretations are crucial for understanding the impact of each feature on the outcome. 
+This logistic regression model has excellent performance in predicting healthy and high-risk loans. No scaling was required for this model as the data featrues are already on a similar scale and align with the models purpose. Standard scaler was only included as it was a part of the Starter Code provided. Scaling should be carefully considered in logistic regression models where coefficient interpretations are crucial for understanding the impact of each feature on the outcome. 
 Since the intention of this challenge is to predict the creditworthiness of a borrower experimenting with alternative models such as Random Forest or Isolation Forest which detect outliers, could be beneficial. These models could provide more robust predictions by identifying patterns and anomalies in the data set that simpler models might miss, thereby improving the accuracy of high-risk loan predictions.  
 
